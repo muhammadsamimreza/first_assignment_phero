@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+.style{
+    margin: 0 50px;
+}
+.hero_section{
+    height: 650px;
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+button{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    color:#ffffff;
+    padding: 8px 15px;
+    font-size: 16px;
+    
+}
+.hero_content{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 45px;
+}
