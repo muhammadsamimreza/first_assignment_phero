@@ -85,36 +85,6 @@ div h2{
 .user_p{
     margin-top: -50px;
 }
-.logo2{
-    color: #4E47FF;
-    font-weight: 800;
-    font-size: 70px;
-}
-
-footer ul li{
-    list-style: none;
-    
-}
-
-footer li a{
-    text-decoration: none;
-    color: #b1b1b5;
-    
-}
-
-.footer_items{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.footer_content{
-    text-align: center;
-    width: 40%;
-}
-
-footer section{
-    margin: 100px auto;
-}
 
 
 .form_section{
@@ -202,3 +172,52 @@ padding: 15px 30px;
 .optinal_image{
     margin-top: 50px;
 }
+
+
+
+
+.logo2{
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+footer ul li{
+    list-style: none;
+    
+}
+
+footer li a{
+    text-decoration: none;
+    color: #b1b1b5;
+    font-size: 20px;
+    
+}
+
+.footer_items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer_section{
+    text-align: center;
+    width: 40%;
+    margin: 100px auto;
+}
+.footer_content{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.footer_content2 p{
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #2d28cf;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+
