@@ -1,11 +1,10 @@
 body{
     font-family: sans-serif;
+    background-color: whitesmoke;
 }
-.style{
-    margin: 0 50px;
-}
+
 .hero_section{
-    height: 650px;
+    height: 680px;
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
     
@@ -14,11 +13,17 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 65px;
+    padding-top: 50px;
+
 }
 .logo{
     font-size: 34px;
     color: #4E47FF;
     font-weight: bolder;
+}
+.hero_item{
+    width: 70%;
 }
 button{
     background-color: #4E47FF;
@@ -30,9 +35,11 @@ button{
     
 }
 .hero_content{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-top: 200px;
-    font-size: 45px;
+    margin-top: 100px;
+    
 }
 .Second{
     display: flex;
@@ -58,7 +65,7 @@ div img{
 
 h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 65px;
 }
 .user_details{
     display: flex;
@@ -106,13 +113,13 @@ footer li a{
 }
 
 footer section{
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 
 .form_section{
     display: flex;
-    margin: 100px 50px;
+    margin: 200px 50px;
     align-items: center;
     justify-content: space-between;
 }
@@ -137,4 +144,41 @@ footer section{
     width: 100%;
     height: 70px;
     border-radius: 15px;
+}
+
+
+.card_01{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card_items{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.all_card{
+    margin: 30px 65px;
+}
+.icon img{
+    width: 25px;
+}
+.content_of_user p{
+    color: rgba(0, 0, 0, 0.773);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 18px;
+}
+
+.user_frofile_image{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.name h4{
+    color: rgba(0, 0, 0, 0.485);
+    font-size: 20px;
 }
